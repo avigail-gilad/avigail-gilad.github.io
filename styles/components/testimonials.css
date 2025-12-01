@@ -1,0 +1,42 @@
+#testimonials {
+  .title {
+    margin-bottom: var(--app-margin-normal);
+  }
+
+  .cards-wrapper {
+    display: grid;
+    gap: var(--grid-gap);
+
+    .card {
+      padding: var(--app-padding-normal);
+      border-radius: 0.25rem;
+      border: 1px solid var(--sl-color-orange-100);
+      background-color: var(--sl-color-orange-50);
+      transition: var(--sl-transition-medium);
+      box-shadow: var(--sl-shadow-medium);
+
+      .icon {
+        margin-bottom: 0.25rem;
+        font-size: var(--sl-font-size-2x-large);
+        color: var(--sl-color-orange-500);
+      }
+
+      .description {
+        margin-bottom: var(--app-margin-normal);
+        color: var(--sl-color-gray-600);
+      }
+
+      .age {
+        color: var(--sl-color-gray-500);
+      }
+    }
+
+    @media (min-width: 40rem) {
+      grid-template-columns: repeat(3, 1fr);
+
+      .card:hover {
+        box-shadow: var(--sl-shadow-x-large);
+      }
+    }
+  }
+}

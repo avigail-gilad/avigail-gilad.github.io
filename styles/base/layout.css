@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding-block: var(--app-padding-normal);
+
+  @media (min-width: 48rem) {
+    padding-block: 3rem;
+  }
+
+  @media (min-width: 64rem) {
+    padding-block: 4rem;
+  }
+}
+
+.container {
+  padding-inline: 0.75rem;
+
+  @media (min-width: 40rem) {
+    margin: auto;
+    max-width: 39rem;
+  }
+
+  @media (min-width: 48rem) {
+    max-width: 46rem;
+  }
+
+  @media (min-width: 64rem) {
+    max-width: 60rem;
+  }
+}

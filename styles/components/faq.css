@@ -1,0 +1,16 @@
+#faq {
+  background-color: var(--sl-color-gray-50);
+  .title {
+    margin-bottom: var(--app-margin-normal);
+  }
+
+  .details-group sl-details:not(:last-of-type) {
+    margin-bottom: var(--sl-spacing-2x-small);
+  }
+
+  .details-group sl-details::part(header) {
+    font-weight: 600;
+    background-color: var(--sl-color-white-50);
+    border-bottom: 1px solid var(--sl-color-gray-100);
+  }
+}

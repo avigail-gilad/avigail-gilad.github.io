@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="אביגיל גלעד - מורה פרטית למתמטיקה לתלמידי יסודי, חטיבה ותיכון. שיעורים אישיים, סבלניים ומותאמים אישית ברמות 3, 4 ו-5 יחידות."
+    />
+    <meta property="og:title" content="אביגיל גלעד - מורה פרטית למתמטיקה" />
+    <meta
+      property="og:description"
+      content="שיעורים פרטיים במתמטיקה לכל הרמות - יסודי, חטיבה ותיכון. מיקוד בהצלחה בבגרויות 3, 4 ו-5 יחידות."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avigail-gilad.github.io/" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/avior-projects/image/upload/v1764317525/Avigail/og-image_zoagtr.webp"
+    />
+    <meta property="og:locale" content="he_IL" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <title>אביגיל גלעד - מורה פרטית למתמטיקה | יסודי, חטיבה ותיכון</title>
+
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme:light)"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme:dark)"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css"
+      onload="document.documentElement.classList.add('sl-theme-dark');"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <script
+      rel="preconnect"
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"
+    ></script>
+
+    <script defer src="scripts/main.js"></script>
+  </head>
+  <body>
+    <div class="app heebo-400">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="container">
+          <img
+            class="logo"
+            src="./assets/logo-light.svg"
+            alt="אביגיל גלעד - מורה פרטית למתמטיקה"
+          />
+        </div>
+      </header>
+
+      <!-- MAIN -->
+      <main class="main">
+        <section id="hero">
+          <div class="container content-wrapper">
+            <div class="text-content">
+              <h1 class="title">מתמטיקה בקלות ובפשטות</h1>
+              <p class="description">
+                שיעורים אישיים, סבלניים וממוקדים להצלחה במבחנים ובבגרויות. ליווי
+                מלא לבניית ביטחון, הבנת החומר ושיפור ציונים - בכל הרמות.
+              </p>
+              <sl-button
+                class="btn"
+                href="#contact"
+                variant="primary"
+                size="large"
+              >
+                קבעו שיעור כעת
+              </sl-button>
+            </div>
+
+            <div class="image-content">
+              <img
+                fetchpriority="high"
+                src="assets/cartoon-math.webp"
+                alt=""
+                aria-label="hero-image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <div class="container">
+            <h2 class="title">קצת עליי</h2>
+            <p class="description">
+              שלום, קוראים לי אביגיל ואני בוגרת תואר ראשון במתמטיקה
+              ואלגוריתמיקה. יש לי ניסיון רב בהוראה וליווי של תלמידים במתמטיקה
+              בכל הרמות. אני סבלנית, מעודדת ומאמינה שכל תלמיד יכול להצליח
+              כשמקבלים את ההכוונה הנכונה. יחד נבנה ביטחון, נבין את החומר לעומק
+              ונהפוך את המתמטיקה לפשוטה וברורה.
+            </p>
+
+            <sl-button
+              class="btn"
+              href="#testimonials"
+              variant="neutral"
+              size="large"
+              outline
+            >
+              להמלצות תלמידים
+            </sl-button>
+          </div>
+        </section>
+
+        <section id="subjects">
+          <div class="container">
+            <h2>תחומי לימוד</h2>
+
+            <div class="cards-wrapper">
+              <article class="card">
+                <sl-icon class="icon" name="123"></sl-icon>
+                <h3 class="title">יסודי</h3>
+                <p class="description">
+                  חיזוק יסודות, בניית ביטחון והפיכת המתמטיקה לחוויה חיובית כבר
+                  מההתחלה.
+                </p>
+              </article>
+
+              <article class="card">
+                <sl-icon class="icon" name="infinity"></sl-icon>
+                <h3 class="title">חטיבה עליונה</h3>
+                <p class="description">
+                  הבנה מעמיקה של החומר, תרגול ממוקד והכנה מוצלחת לאתגרי החטיבה.
+                </p>
+              </article>
+
+              <article class="card">
+                <sl-icon class="icon" name="calculator"></sl-icon>
+                <h3 class="title">תיכון</h3>
+                <p class="description">
+                  לימוד 3, 4 ו- 5 יחידות עם ליווי אישי שמוביל להצלחה במבחנים
+                  ובבגרויות.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq">
+          <div class="container">
+            <h2 class="title">שאלות נפוצות</h2>
+
+            <div class="details-group">
+              <sl-details summary="כמה זמן נמשך שיעור?">
+                שיעור רגיל נמשך 45 דקות, אך ניתן לקבוע גם שיעורים ארוכים יותר על
+                פי צורך - במיוחד לפני מבחנים או בגרויות.
+              </sl-details>
+
+              <sl-details summary="כמה עולה שיעור?">
+                עלות שיעור יחיד (של 45 דקות) היא 120 שקלים ושיעור כפול (שעה
+                וחצי) 200 שקלים.
+              </sl-details>
+
+              <sl-details summary="האם את מלמדת את כל רמות המתמטיקה?">
+                כן! אני מלמדת יסודי, חטיבה ותיכון כולל רמות 3, 4 ו־5 יחידות, עם
+                התאמה אישית לכל תלמיד ולרמתו.
+              </sl-details>
+
+              <sl-details summary="איך מתנהל השיעור?">
+                השיעורים משלבים הסבר ברור, תרגול ממוקד, עידוד ובניית ביטחון. אני
+                מתאימה את הקצב ואת שיטת הלימוד לכל תלמיד, כדי שירגיש בטוח ומוכן.
+              </sl-details>
+
+              <sl-details summary="האם אפשר ללמוד גם פרונטלי?">
+                תלוי באיזור המגורים. אך מניסיון שלי, אין הבדל בין שיעור ב- ZOOM
+                לפרונטלי. יתרה מזאת, ניתן להקליט את השיעורים ולצפות בהם מתי
+                שתרצו :)
+              </sl-details>
+
+              <sl-details summary="האם צריך להביא משהו לשיעור?">
+                מומלץ לשלוח לי את התרגילים מראש וכמובן להביא מחברת, מחשבון, ספרי
+                לימוד ותרגילים מבית הספר. אם יש מבחן קרוב או נושא מסוים שתרצו
+                להתמקד בו — כדאי להביא גם את חומרי הכיתה הרלוונטיים.
+              </sl-details>
+            </div>
+          </div>
+        </section>
+
+        <section id="testimonials">
+          <div class="container">
+            <h2 class="title">המלצות תלמידים</h2>
+            <div class="cards-wrapper">
+              <article class="card">
+                <sl-icon class="icon" name="quote"></sl-icon>
+                <p class="description">
+                  אביגיל פשוט מצילה אותי במתמטיקה. סוף־סוף מישהו מסביר כמו שצריך
+                  ובלי לחץ.
+                </p>
+                <h3 class="name">עמיחי ק.</h3>
+                <h4 class="age">בן 18</h4>
+              </article>
+
+              <article class="card">
+                <sl-icon class="icon" name="quote"></sl-icon>
+                <p class="description">
+                  השיעורים איתה זורמים בטירוף, והיא גורמת להכול להיראות הרבה
+                  יותר פשוט. באמת מרגישה שינוי.
+                </p>
+                <h3 class="name">הדר כ.</h3>
+                <h4 class="age">בת 15</h4>
+              </article>
+
+              <article class="card">
+                <sl-icon class="icon" name="quote"></sl-icon>
+                <p class="description">
+                  ההסברים של אביגיל כל כך ברורים שכבר בשיעור הראשון הבנתי דברים
+                  שהיו לי סלט בראש.
+                </p>
+                <h3 class="name">אבישי ג.</h3>
+                <h4 class="age">בן 16</h4>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="container">
+            <h2 class="title">דברו איתי 🙃</h2>
+            <p class="description">
+              אז למה אתם מחכים? שלחו הודעה ואחזור אליכם בהקדם האפשרי!
+            </p>
+
+            <sl-button
+              class="btn"
+              href="https://wa.me/+972542467314/?text=היי, אשמח לתאם שיעור :)"
+              variant="success"
+              size="large"
+              target="_blank"
+              outline
+            >
+              <sl-icon slot="prefix" name="whatsapp"></sl-icon>
+              שלחו הודעה
+            </sl-button>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <p class="copyrights">
+            <sl-icon name="c-circle"></sl-icon>
+            2025 כל הזכויות שמורות - אביגיל גלעד
+          </p>
+
+          <a
+            class="dev"
+            href="https://github.com/aviorkahalani"
+            target="_blank"
+          >
+            Developed by Avior Kahalani
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+:root {
+  --app-padding-small: 2rem;
+  --app-padding-normal: 2rem;
+  --app-margin-small: 1rem;
+  --app-margin-normal: 3rem;
+  --grid-gap: 0.5rem;
+}

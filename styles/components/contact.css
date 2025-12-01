@@ -1,0 +1,7 @@
+#contact {
+  background-color: var(--sl-color-orange-50);
+
+  .description {
+    margin-bottom: var(--app-margin-normal);
+  }
+}
